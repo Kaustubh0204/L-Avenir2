@@ -373,6 +373,27 @@ body {
     height: 100px;
 }
 
+.landing-form {
+    float: left;
+    padding-top: 500px;
+    width: 50%;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.landing-form-right:after {
+    content: "";
+    display: table;
+    padding-top: 500px;
+    clear: both;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
 .landing {
     display: flex;
     flex-direction: row;
