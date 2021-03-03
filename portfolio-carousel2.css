@@ -54,19 +54,19 @@
 }
 
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-    background-image: url("https://en.wikipedia.org/wiki/Flag_of_Germany#/media/File:Flag_of_Germany.svg");
+    background-image: url("./Asset/800px-Flag_of_Germany.svg.png");
 }
 
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-    background-image: url("https://en.wikipedia.org/wiki/Flag_of_France#/media/File:Flag_of_France.svg");
+    background-image: url("./Asset/Flag_of_France.png");
 }
 
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-    background-image: url("https://en.wikipedia.org/wiki/Flag_of_France#/media/File:Flag_of_Spain.svg");
+    background-image: url("./Asset/750px-Flag_of_Spain.svg.png");
 }
 
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-    background-image: url("https://en.wikipedia.org/wiki/Flag_of_France#/media/File:Flag_of_Italy.svg");
+    background-image: url("./Asset/800px-Flag_of_Italy.svg.png");
 }
 
 .ms--images .ms-slide__image-container {
@@ -421,7 +421,7 @@ a {
     top: 0;
     width: 300%;
     height: 100%;
-    background-color: rgb(109, 96, 96, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -490,7 +490,9 @@ a {
 
 .sliders-container {
     position: absolute;
-    top: 0%;
+    width: 100%;
+    left: 0%;
+    top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

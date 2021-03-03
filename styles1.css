@@ -100,6 +100,7 @@ input {
 .screen-body-item {
     flex: 1;
     padding: 50px;
+    width: 360px;
 }
 
 .screen-body-item.left {
@@ -509,7 +510,7 @@ li span {
     width: 200px;
     position: absolute;
     top: -23px;
-    right: -20px;
+    right: 0px;
 }
 
 .infoCards .two .cardtwoImg {
@@ -517,14 +518,14 @@ li span {
     height: 300px;
     position: absolute;
     top: -83px;
-    right: -70px;
+    right: -40px;
 }
 
 .infoCards .three .cardthreeImg {
     width: 200px;
     position: absolute;
     top: -32px;
-    right: -50px;
+    right: -20px;
 }
 
 .cardbgone {

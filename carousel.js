@@ -19,10 +19,10 @@
 
     // Initializing the titles slider
     var titles = [
-        'King of the Ring Fight',
-        'Sound of Streets',
-        'Urban Fashion',
-        'Windy Sunset'
+        'German',
+        'French',
+        'Spanish',
+        'Italian'
     ];
     var msTitles = new MomentumSlider({
         el: slidersContainer,

@@ -7,11 +7,11 @@
         el: slidersContainer,
         cssClass: 'ms--numbers',
         range: [1, 4],
-        rangeContent: function (i) {
+        rangeContent: function(i) {
             return '0' + i;
         },
         style: {
-            transform: [{scale: [0.4, 1]}],
+            transform: [{ scale: [0.4, 1] }],
             opacity: [0, 1]
         },
         interactive: false
@@ -19,17 +19,17 @@
 
     // Initializing the titles slider
     var titles = [
-        'King of the Ring Fight',
-        'Sound of Streets',
-        'Urban Fashion',
-        'Windy Sunset'
+        'German',
+        'French',
+        'Spanish',
+        'Italian'
     ];
     var msTitles = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--titles',
         range: [0, 3],
-        rangeContent: function (i) {
-            return '<h3>'+ titles[i] +'</h3>';
+        rangeContent: function(i) {
+            return '<h3>' + titles[i] + '</h3>';
         },
         vertical: true,
         reverse: true,
@@ -44,8 +44,8 @@
         el: slidersContainer,
         cssClass: 'ms--links',
         range: [0, 3],
-        rangeContent: function () {
-            return '<a class="ms-slide__link">View Case</a>';
+        rangeContent: function() {
+            return '<a class="ms-slide__link">View Course</a>';
         },
         vertical: true,
         interactive: false
@@ -63,7 +63,7 @@
         cssClass: 'ms--images',
         // Generate the 4 slides required
         range: [0, 3],
-        rangeContent: function () {
+        rangeContent: function() {
             return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>';
         },
         // Syncronize the other sliders
@@ -71,7 +71,7 @@
         // Styles to interpolate as we move the slider
         style: {
             '.ms-slide__image': {
-                transform: [{scale: [1.5, 1]}]
+                transform: [{ scale: [1.5, 1] }]
             }
         },
         // Update pagination if slider change

@@ -99,6 +99,16 @@
             </div>
 
         </section>
+
+        <div class="container-fluid my-5">
+            <div class="jumbotron bg-secondary">
+                <iframe width="100%" height="500" src="courses.html" frameborder="0" scrolling="auto" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+
         <section class="yellow-section">
             <div class="banner">
                 <div class="bannerText aos-init" data-aos="fade-right" data-aos-duration="1000">
@@ -182,27 +192,29 @@
                                 </div>
                                 <div class="screen-body-item">
                                     <div class="app-form">
-                                        <div class="app-form-group">
-                                            <input class="app-form-control" placeholder="NAME" value="Your Name">
-                                        </div>
-                                        <div class="app-form-group">
-                                            <input class="app-form-control" placeholder="EMAIL">
-                                        </div>
-                                        <div class="app-form-group">
-                                            <input class="app-form-control" placeholder="CONTACT NO">
-                                        </div>
-                                        <div class="app-form-group message">
-                                            <input class="app-form-control" placeholder="MESSAGE">
-                                        </div>
-                                        <div class="app-form-group buttons">
-                                            <button class="app-form-button">CANCEL</button>
-                                            <button class="app-form-button">SEND</button>
+                                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                                            <div class="app-form-group">
+                                                <input class="app-form-control" placeholder="NAME" value="Your Name" type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                            </div>
+                                            <div class="app-form-group">
+                                                <input class="app-form-control" placeholder="EMAIL" type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                            </div>
+                                            <!--   <div class="app-form-group">
+                                                <input class="app-form-control" placeholder="CONTACT NO">
+                                            </div>-->
+                                            <div class="app-form-group message">
+                                                <input class="app-form-control" placeholder="MESSAGE (ADD CONTACT NO.)" id="Message" name="Message" class="fcf-form-control">
+                                            </div>
+                                            <div class="app-form-group buttons">
+                                                <button class="app-form-button">CANCEL</button>
+                                                <button class="app-form-button" type="submit">SEND</button>
+
+                                        </form>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
         </section>
 
 
